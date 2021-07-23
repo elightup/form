@@ -12,5 +12,9 @@
   "bugs": {
     "url": "https://github.com/elightup/form/issues"
   },
-  "homepage": "https://github.com/elightup/form#readme"
+  "homepage": "https://github.com/elightup/form#readme",
+  "devDependencies": {
+    "@wordpress/components": "^14.2.0",
+    "@wordpress/element": "^3.2.0"
+  }
 }
