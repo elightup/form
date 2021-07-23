@@ -1,0 +1,16 @@
+{
+  "name": "@elightup/form",
+  "version": "0.0.1",
+  "description": "Common uncontrolled form controls for React",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elightup/form.git"
+  },
+  "author": "eLightUp",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elightup/form/issues"
+  },
+  "homepage": "https://github.com/elightup/form#readme"
+}
