@@ -1,5 +1,5 @@
 import { RawHTML } from "@wordpress/element";
-import { Tooltip } from "../components/Tooltip";
+import { Tooltip } from "./components/Tooltip";
 
 export const Control = ( {
 	label,
