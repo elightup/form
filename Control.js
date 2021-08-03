@@ -1,7 +1,7 @@
 import { RawHTML } from "@wordpress/element";
-import { Tooltip } from "./components/Tooltip";
+import Tooltip from "./components/Tooltip";
 
-export const Control = ( {
+const Control = ( {
 	label,
 	required = false,
 	tooltip = '',
@@ -16,7 +16,7 @@ export const Control = ( {
 			label &&
 			<label className="ef-control__label" htmlFor={ id }>
 				<RawHTML>{ label }</RawHTML>
-				{ required && <span class="ef-control__required">*</span> }
+				{ required && <span className="ef-control__required">*</span> }
 				{ tooltip && <Tooltip content={ tooltip } /> }
 			</label>
 		}
@@ -26,3 +26,5 @@ export const Control = ( {
 		</div>
 	</div>
 );
+
+export default Control;

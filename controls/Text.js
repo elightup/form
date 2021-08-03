@@ -1,3 +1,5 @@
-import { Input } from "./Input";
+import Input from "./Input";
 
-export const Text = props => <Input type={ text } { ...props } />;
+const Text = props => <Input type="text" { ...props } />;
+
+export default Text;

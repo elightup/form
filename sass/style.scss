@@ -1,0 +1,52 @@
+.ef-control {
+	margin-bottom: 16px;
+	display: flex;
+	justify-content: space-between;
+
+	&__label {
+		width: 180px;
+
+		>div {
+			display: inline;
+		}
+	}
+
+	&__input {
+		flex: 1;
+		min-width: 0; // To make the input not exceed parent's width.
+	}
+
+	&__required {
+		color: var(--color-red);
+	}
+
+	// WordPress 5.6+
+	&__tooltip {
+		.dashicon {
+			color: var(--color-light);
+			font-size: 14px;
+			position: relative;
+			top: 2px;
+		}
+	}
+
+	&__description {
+		font-style: italic;
+		font-size: 12px;
+		margin-top: 2px;
+
+		code {
+			font-style: normal;
+			font-size: 11px;
+			padding: 2px 4px;
+			border-radius: 2px;
+		}
+	}
+
+	select,
+	textarea,
+	input:not([size]):not([type="button"i]):not([type="submit"i]):not([type="reset"i]):not([type="checkbox"i]):not([type="radio"i]),
+	.react-select {
+		width: 100%;
+	}
+}

@@ -1,5 +1,8 @@
-import { Control } from "./Control";
-import { Input } from "./controls/Input";
-import { Text } from "./controls/Text";
+import Control from "./Control";
+import Input from "./controls/Input";
+import Text from "./controls/Text";
+import "./sass/style.scss";
 
-export { Control, Input, Text };
+exports.Control = Control;
+exports.Input = Input;
+exports.Text = Text;

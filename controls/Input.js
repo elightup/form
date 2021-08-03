@@ -1,13 +1,15 @@
-import { Control } from "../Control";
+import Control from "../Control";
 
-export const Input = ( {
-	label,
+const Input = ( {
 	name,
 	type = 'text',
 	value = '',
 	placeholder = '',
+	...rest
 } ) => (
-	<Control label={ label }>
+	<Control {...rest}>
 		<input type={ type } name={ name } value={ value } placeholder={ placeholder } />
 	</Control>
 );
+
+export default Input;
