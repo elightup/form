@@ -48,5 +48,6 @@
 	input:not([size]):not([type="button"i]):not([type="submit"i]):not([type="reset"i]):not([type="checkbox"i]):not([type="radio"i]),
 	.react-select {
 		width: 100%;
+		max-width: none;
 	}
 }

@@ -1,14 +1,15 @@
 import Control from "../Control";
 
 const Input = ( {
-	name,
 	type = 'text',
+	id = '',
+	name = '',
 	value = '',
 	placeholder = '',
 	...rest
 } ) => (
-	<Control {...rest}>
-		<input type={ type } name={ name } defaultValue={ value } placeholder={ placeholder } />
+	<Control { ...rest }>
+		<input type={ type } id={ id } name={ name } defaultValue={ value } placeholder={ placeholder } />
 	</Control>
 );
 

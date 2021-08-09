@@ -3,7 +3,7 @@ import classNames from "classnames";
 import Tooltip from "./components/Tooltip";
 
 const Control = ( {
-	label,
+	label = '',
 	required = false,
 	tooltip = '',
 	description = '',
