@@ -9,7 +9,7 @@ const commonModules = {
 			use: {
 				loader: 'babel-loader',
 				options: {
-					plugins: [ '@babel/plugin-transform-react-jsx' ],
+					presets: [ '@babel/preset-react' ],
 				},
 			},
 		},
@@ -37,7 +37,6 @@ const config = {
 	externals: {
 		react: 'React',
 		'react-dom': 'ReactDOM',
-		'@wordpress/i18n': 'wp.i18n',
 		'@wordpress/element': 'wp.element',
 		'@wordpress/components': 'wp.components',
 	},

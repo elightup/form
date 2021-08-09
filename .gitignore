@@ -1,4 +1,4 @@
 node_modules
 *.lock
 build.js
-style.css
+build.js.LICENSE.txt
