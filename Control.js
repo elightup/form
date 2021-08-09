@@ -15,7 +15,7 @@ const Control = ( {
 		{
 			label &&
 			<label className="ef-control__label" htmlFor={ id }>
-				<RawHTML>{ label }</RawHTML>
+				{ label.includes( '<' ) ? <RawHTML>{ label }</RawHTML> : label }
 				{ required && <span className="ef-control__required">*</span> }
 				{ tooltip && <Tooltip content={ tooltip } /> }
 			</label>

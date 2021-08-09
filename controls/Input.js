@@ -8,7 +8,7 @@ const Input = ( {
 	...rest
 } ) => (
 	<Control {...rest}>
-		<input type={ type } name={ name } value={ value } placeholder={ placeholder } />
+		<input type={ type } name={ name } defaultValue={ value } placeholder={ placeholder } />
 	</Control>
 );
 
