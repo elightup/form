@@ -1,4 +1,5 @@
 import { RawHTML } from "@wordpress/element";
+import classNames from "classnames";
 import Tooltip from "./components/Tooltip";
 
 const Control = ( {
@@ -11,7 +12,7 @@ const Control = ( {
 	children,
 	...rest
 } ) => (
-	<div className={ `ef-control ${ className }` } { ...rest }>
+	<div className={ classNames( 'ef-control', className ) } { ...rest }>
 		{
 			label &&
 			<label className="ef-control__label" htmlFor={ id }>
