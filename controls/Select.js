@@ -6,10 +6,11 @@ const Select = ( {
 	value = '',
 	placeholder = '-',
 	options,
+	onChange,
 	...rest
 } ) => (
 	<Control { ...rest }>
-		<select id={ id } name={ name } defaultValue={ value }>
+		<select id={ id } name={ name } defaultValue={ value } onChange={ onChange }>
 			<option value="">{ placeholder }</option>
 			{
 				Array.isArray( options )
