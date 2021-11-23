@@ -9,7 +9,7 @@ const Input = ( {
 	onChange,
 	...rest
 } ) => (
-	<Control { ...rest }>
+	<Control id={ id } { ...rest }>
 		<input type={ type } id={ id } name={ name } defaultValue={ value } placeholder={ placeholder } onChange={ onChange } />
 	</Control>
 );

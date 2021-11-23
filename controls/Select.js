@@ -9,7 +9,7 @@ const Select = ( {
 	onChange,
 	...rest
 } ) => (
-	<Control { ...rest }>
+	<Control id={ id } { ...rest }>
 		<select id={ id } name={ name } defaultValue={ value } onChange={ onChange }>
 			<option value="">{ placeholder }</option>
 			{
