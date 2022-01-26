@@ -1,6 +1,6 @@
 import { RawHTML } from "@wordpress/element";
 import clsx from "clsx";
-import Tooltip from "./components/Tooltip";
+import Tooltip from "../components/Tooltip";
 
 const Control = ( {
 	label = '',
