@@ -2,3 +2,4 @@ node_modules
 *.lock
 build.js
 build.js.LICENSE.txt
+dist

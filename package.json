@@ -4,6 +4,7 @@
   "description": "Common uncontrolled form controls for React",
   "license": "MIT",
   "main": "dist/index.js",
+  "module": "dist/index.js",
   "scripts": {
     "start": "babel src -d dist"
   },
