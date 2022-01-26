@@ -1,10 +1,9 @@
 {
   "name": "@elightup/form",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Common uncontrolled form controls for React",
   "license": "MIT",
   "main": "dist/index.js",
-  "module": "dist/index.js",
   "scripts": {
     "start": "babel src -d dist"
   },
