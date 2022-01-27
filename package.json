@@ -8,9 +8,9 @@
     "start": "babel src -d dist"
   },
   "babel": {
-    "presets": [
+    "plugins": [
       [
-        "@babel/preset-react",
+        "@babel/plugin-transform-react-jsx",
         {
           "runtime": "automatic"
         }
@@ -20,7 +20,7 @@
   "devDependencies": {
     "@babel/cli": "^7.16.8",
     "@babel/core": "^7.14.8",
-    "@babel/preset-react": "^7.14.5"
+    "@babel/plugin-transform-react-jsx": "^7.16.7"
   },
   "dependencies": {
     "@wordpress/components": "^15.0.0",
