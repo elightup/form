@@ -43,11 +43,15 @@
 		}
 	}
 
-	select,
-	textarea,
-	input:not([size]):not([type="button"i]):not([type="submit"i]):not([type="reset"i]):not([type="checkbox"i]):not([type="radio"i]),
-	.react-select {
-		width: 100%;
-		max-width: none;
-	}
+
+}
+
+:where(
+	.ef-control select,
+	.ef-control textarea,
+	.ef-control input:not([size]):not([type="button"i]):not([type="submit"i]):not([type="reset"i]):not([type="checkbox"i]):not([type="radio"i]),
+	.ef-control .react-select
+) {
+	width: 100%;
+	max-width: none;
 }
