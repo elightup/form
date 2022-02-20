@@ -1,7 +1,10 @@
 .ef-control {
-	margin-bottom: 16px;
 	display: flex;
 	justify-content: space-between;
+
+	&:not(:last-child) {
+		margin-bottom: 16px;
+	}
 
 	&__label {
 		width: 180px;
@@ -42,16 +45,12 @@
 			border-radius: 2px;
 		}
 	}
-
-
 }
 
-:where(
-	.ef-control select,
-	.ef-control textarea,
-	.ef-control input:not([size]):not([type="button"i]):not([type="submit"i]):not([type="reset"i]):not([type="checkbox"i]):not([type="radio"i]),
-	.ef-control .react-select
-) {
+.ef-control select,
+.ef-control textarea,
+.ef-control input:not([size]):not([type="button"i]):not([type="submit"i]):not([type="reset"i]):not([type="checkbox"i]):not([type="radio"i]),
+.ef-control .react-select {
 	width: 100%;
 	max-width: none;
 }
