@@ -23,5 +23,14 @@
   },
   "dependencies": {
     "clsx": "^1.1.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elightup/form.git"
+  },
+  "author": "eLightUp",
+  "bugs": {
+    "url": "https://github.com/elightup/form/issues"
+  },
+  "homepage": "https://github.com/elightup/form#readme"
 }
