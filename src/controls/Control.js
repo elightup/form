@@ -10,9 +10,8 @@ const Control = ( {
 	id = '',
 	className = '',
 	children,
-	...rest
 } ) => (
-	<div className={ clsx( 'ef-control', className ) } { ...rest }>
+	<div className={ clsx( 'ef-control', className ) }>
 		{
 			label &&
 			<label className="ef-control__label" htmlFor={ id }>
