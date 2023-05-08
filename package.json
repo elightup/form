@@ -1,6 +1,6 @@
 {
   "name": "@elightup/form",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Common uncontrolled form controls for React",
   "license": "MIT",
   "main": "dist/index.js",
