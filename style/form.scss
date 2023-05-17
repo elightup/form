@@ -57,15 +57,17 @@
 }
 
 // Sidebar.
-#side-sortables .ef-control {
-	flex-direction: column;
-}
-#side-sortables .ef-control__label {
-	width: 100%;
-	margin-bottom: 4px;
-}
-#side-sortables .ef-control__input {
-	width: 100%;
+#side-sortables {
+	.ef-control {
+		flex-direction: column;
+	}
+	.ef-control__label {
+		width: 100%;
+		margin-bottom: 4px;
+	}
+	.ef-control__input {
+		width: 100%;
+	}
 }
 
 // Mobile style.
