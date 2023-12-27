@@ -8,20 +8,24 @@
     "start": "babel src -d dist"
   },
   "babel": {
-    "plugins": [
-      [
-        "@babel/plugin-transform-react-jsx"
+		"presets": [
+			"@babel/preset-env",
+			[
+        "@babel/preset-react", {
+          "runtime": "automatic"
+        }
       ]
-    ]
-  },
+		]
+	},
   "devDependencies": {
     "@babel/cli": "^7.16.8",
     "@babel/core": "^7.14.8",
-    "@babel/plugin-transform-react-jsx": "^7.16.7",
-    "@wordpress/components": "^19.4.0",
-    "@wordpress/element": "^4.1.1"
+    "@babel/preset-env": "^7.23.6",
+    "@babel/preset-react": "^7.23.3"
   },
   "dependencies": {
+    "@wordpress/components": "^25.14.0",
+    "@wordpress/element": "^5.25.0",
     "clsx": "^1.1.1"
   },
   "repository": {
