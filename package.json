@@ -25,6 +25,7 @@
     "@babel/preset-react": "^7.23.3"
   },
   "dependencies": {
+    "@wordpress/components": "^27.6.0",
     "clsx": "^1.1.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
