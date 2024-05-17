@@ -1,4 +1,5 @@
 import clsx from "clsx";
+import Tooltip from "../components/Tooltip";
 
 const Control = ( {
 	label = '',
@@ -15,6 +16,7 @@ const Control = ( {
 			<label className="ef-control__label" htmlFor={ id }>
 				{ label.includes( '<' ) ? <div dangerouslySetInnerHTML={ { __html: label } } /> : label }
 				{ required && <span className="ef-control__required">*</span> }
+				{ tooltip && <Tooltip content={ tooltip } /> }
 			</label>
 		}
 		<div className="ef-control__input">
