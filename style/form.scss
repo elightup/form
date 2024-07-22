@@ -15,6 +15,7 @@
 	}
 
 	&__input {
+		position: relative;
 		flex: 1;
 		min-width: 0; // To make the input not exceed parent's width.
 	}
@@ -24,18 +25,17 @@
 	}
 
 	// WordPress 5.6+
-	&__tooltip {
-		svg {
-			fill: #ccd0d4;
-			width: 14px;
-			position: relative;
-			top: 2px;
-		}
+	&__tooltip svg {
+		fill: #ccd0d4;
+		width: 14px;
+		position: relative;
+		top: 2px;
 	}
 
 	&__description {
 		font-style: italic;
 		font-size: 12px;
+		color: #646970;
 		margin-top: 2px;
 
 		code {
