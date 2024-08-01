@@ -8,14 +8,14 @@ Clone this repo to a local folder and build it:
 
 ```bash
 git clone git@github.com:elightup/form.git
-npm install
-npm start
+pnpm install
+pnpm start
 ```
 
 To start using this package in your project, first make this project as a link, so whenever you update it locally, all local changes will apply to your project. To make it a link, run this command inside the `@elightup/form` package folder:
 
 ```bash
-npm link
+pnpm link
 ```
 
 Then add `@elightup/form` to the list of your project's dependencies in the `package.json` file:
@@ -30,7 +30,7 @@ Don't forget to change the path to the folder of the `@elightup/form` repo that 
 This will add `@elightup/form` to your `node_modules` folder, however, to make it link to the local folder, run:
 
 ```bash
-npm link @elightup/form
+pnpm link @elightup/form
 ```
 ## Usage
 
